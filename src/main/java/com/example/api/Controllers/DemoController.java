@@ -1,7 +1,5 @@
 package com.example.api.Controllers;
 
-import com.example.api.authentication.AuthenticationResponse;
-import com.example.api.authentication.RegisterRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
