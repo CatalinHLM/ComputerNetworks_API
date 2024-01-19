@@ -2,15 +2,3 @@
 	"leftWheelSpeed": "0.3",
 	"rightWheelSpeed": "-0.2"
 }
-
-{
-	"farLeft": "1",
-	"left": "0",
-	"center": "0",
-	"right": "1",
-	"farRight": "0",
-	"lineLeft": "800",
-	"lineRight: "20",
-	"leftWheelSpeed" = "0.1",
-    "rightWheelSpeed" ="0.2"
-}

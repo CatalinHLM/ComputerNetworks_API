@@ -3,11 +3,8 @@ package com.example.api.Controllers;
 import com.example.api.requests.EspRequest;
 import com.example.api.requests.EspResponse;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.HttpServerErrorException;
 import org.springframework.web.client.ResourceAccessException;
@@ -17,7 +14,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Service
 public class EspSerializedController {
 
-    private static final String ESP_ENDPOINT = "http://192.168.0.101:80"; // Replace with your actual endpoint
+    private static final String ESP_ENDPOINT = ""; // Replace with your actual endpoint
 
     public EspResponse sendEspRequest(EspRequest espRequest) {
 
