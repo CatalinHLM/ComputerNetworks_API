@@ -1,9 +1,9 @@
 package com.example.api.authentication;
 
 import com.example.api.config.JwtService;
-import com.example.api.user.Role;
-import com.example.api.user.User;
-import com.example.api.user.UserRepository;
+import com.example.api.model.Role;
+import com.example.api.model.User;
+import com.example.api.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
